@@ -3,7 +3,7 @@
     follow = mouse
     width = 360
     height = 120
-    origin = bottom-right
+    origin = top-right
     offset = 12x28
     scale = 0
     notification_limit = 4
