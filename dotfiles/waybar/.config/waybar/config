@@ -18,7 +18,7 @@
     "tray"
   ],
   "custom/launcher": {
-    "format": " exit ",
+    "format": " zer0 ",
     "tooltip-format": "Exit Menu",
     "on-click": "~/.config/sway/scripts/fuzzel_exit.sh",
     "tooltip": false
