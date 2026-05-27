@@ -116,6 +116,8 @@ bindsym $mod+s       exec subl
 bindsym $mod+c       exec code
 bindsym $mod+i       exec firefox
 bindsym $mod+e       exec thunar
+bindsym $mod+m       exec mousepad
+bindsym $mod+k       exec kolourpaint
 bindsym $mod+n       exec --no-startup-id ~/.config/sway/scripts/nightlight.sh
 
 # Screenshots (Flameshot)

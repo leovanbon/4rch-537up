@@ -45,6 +45,7 @@ xdg-desktop-portal-gtk
 polkit
 
 # File manager and desktop utilities
+firefox
 thunar
 thunar-archive-plugin
 tumbler
@@ -53,6 +54,8 @@ gvfs-mtp
 xdg-utils
 brightnessctl
 gammastep
+mousepad
+kolourpaint
 
 # Input and fonts
 fcitx5
