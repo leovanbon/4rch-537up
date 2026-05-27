@@ -1,0 +1,67 @@
+# Base tools
+base-devel
+git
+stow
+sudo
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+
+# Session, compositor, bar, launcher
+ly
+sway
+waybar
+fuzzel
+autotiling
+kitty
+nwg-displays
+
+# Notifications, clipboard, lock, wallpaper, screenshots
+dunst
+libnotify
+jq
+wl-clipboard
+cliphist
+wtype
+swaylock
+swaybg
+grim
+slurp
+flameshot
+
+# Audio, network, bluetooth, portals
+pipewire
+pipewire-pulse
+wireplumber
+pavucontrol
+networkmanager
+network-manager-applet
+bluez
+bluez-utils
+blueman
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+xdg-desktop-portal-gtk
+polkit
+
+# File manager and desktop utilities
+thunar
+thunar-archive-plugin
+tumbler
+gvfs
+gvfs-mtp
+xdg-utils
+brightnessctl
+gammastep
+
+# Input and fonts
+fcitx5
+fcitx5-gtk
+fcitx5-qt
+fcitx5-unikey
+noto-fonts
+noto-fonts-cjk
+ttf-dejavu
+ttf-cascadia-code-nerd
+otf-font-awesome
+papirus-icon-theme

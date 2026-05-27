@@ -1,0 +1,5 @@
+# Optional AUR packages. Leave empty unless you want git/AUR variants.
+swayr
+bemoji
+# sway-git
+# flameshot-git

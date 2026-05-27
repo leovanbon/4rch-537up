@@ -1,0 +1,2 @@
+# Portable default: let Sway auto-detect outputs.
+# Put host-specific monitor layout here after running nwg-displays or swaymsg.

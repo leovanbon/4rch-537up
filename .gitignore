@@ -1,0 +1,6 @@
+.dotfiles-backup/
+*.bak
+*.tmp
+*.swp
+*.swo
+__pycache__/

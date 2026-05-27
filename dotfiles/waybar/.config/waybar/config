@@ -1,0 +1,67 @@
+{
+  "layer": "bottom",
+  "position": "bottom",
+  "modules-left": [
+    "custom/launcher",
+    "sway/workspaces"
+  ],
+  "modules-center": [
+    "custom/scratchpad",
+    "sway/window"
+  ],
+  "modules-right": [
+    "pulseaudio",
+    "battery",
+    "cpu",
+    "memory",
+    "clock",
+    "tray"
+  ],
+  "custom/launcher": {
+    "format": " zer0 ",
+    "tooltip-format": "Power Menu",
+    "on-click": "~/.config/sway/scripts/fuzzel_power.sh",
+    "tooltip": false
+  },
+  "sway/workspaces": {
+    "disable-scroll": false,
+    "all-outputs": true,
+    "format": "{name}"
+  },
+  "sway/window": {
+    "max-length": 200,
+    "on-click": "swayr switch-window"
+  },
+  "pulseaudio": {
+    "format": "{volume}%",
+    "format-muted": " Muted",
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-full": "FULL",
+    "tooltip": true
+  },
+  "cpu": {
+    "format": "{usage}%",
+    "tooltip": true
+  },
+  "memory": {
+    "format": "{used}",
+    "tooltip": false
+  },
+  "clock": {
+    "format": "{:%Y-%m-%d %H:%M}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "tray": {
+    "spacing": 5
+  },
+  "custom/scratchpad": {
+    "format": "  {}",
+    "interval": 2,
+    "exec": "~/.config/waybar/scripts/scratchpad_indicator.sh",
+    "return-type": "json"
+  }
+}

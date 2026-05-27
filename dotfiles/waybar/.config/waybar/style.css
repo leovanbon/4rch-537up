@@ -1,0 +1,55 @@
+/* --- Global Styles --- */
+* {
+    /* This tells Waybar to try DejaVu Sans Mono first, and if a character
+       (like an icon) is not found, to fall back to Font Awesome. */
+    font-family: 'Noto Sans Mono';
+    font-size: 10px;
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000000; 
+    color: #ffffff;           
+}
+
+
+#workspaces button {
+    padding: 0 0px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+#workspaces button.focused {
+    background-color: #ffffff; 
+    color: #000000;
+}
+
+#workspaces button.urgent {
+    background-color: #900000; 
+}
+
+/* #window {
+    
+} */
+
+/* --- Right-Side Modules with Separators --- */
+
+/* Apply common styles to all modules on the right */
+#pulseaudio,
+#battery,
+#cpu,
+#memory,
+#clock {
+    padding: 0 10px; /* Space inside the module */
+    margin: 0;
+    /* This is the magic: add a 1px solid white border on the right */
+    border-right: 0px solid #363636;
+}
+
+/* The very last module on the right (the tray) doesn't need a separator */
+#tray {
+    padding: 0 10px;
+    margin: 0;
+}

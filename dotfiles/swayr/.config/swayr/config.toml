@@ -1,0 +1,21 @@
+[menu]
+executable = 'fuzzel'
+args = [
+    '--dmenu',
+    '--anchor=bottom',
+    '--x-margin=0',
+    '--y-margin=0',
+    '--font=monospace:size=9',
+    '--prompt=switch to: ',
+    '--lines=5',
+    '--width=70'
+]
+
+[format]
+# Fuzzel syntax: "Text \u0000icon\u001f IconPath"
+# We also removed the <i> and <b> tags since Fuzzel shows them as text.
+window_format = "[{workspace_name}] {app_name}: {title}\u0000icon\u001f{app_icon}"
+
+# Ensure HTML escaping is off or handled correctly if you see weird symbols,
+# but usually, standard text is fine.
+html_escape = false
