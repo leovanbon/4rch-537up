@@ -75,6 +75,7 @@ backup_existing_dotfiles() {
     "$HOME/.config/fuzzel"
     "$HOME/.config/swayr"
     "$HOME/.config/kitty"
+    "$HOME/.config/dunst"
     "$HOME/.config/systemd/user/swayrd.service"
     "$HOME/.azotebg"
     "$HOME/.zshenv"
@@ -101,7 +102,7 @@ backup_existing_dotfiles() {
 link_dotfiles() {
   info "Linking dotfiles with stow"
   mkdir -p "$HOME/.config"
-  stow --dir="$repo_dir/dotfiles" --target="$HOME" sway waybar fuzzel swayr kitty zsh azote systemd
+  stow --dir="$repo_dir/dotfiles" --target="$HOME" sway waybar fuzzel swayr kitty dunst zsh azote systemd
 }
 
 enable_services() {

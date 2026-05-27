@@ -18,9 +18,9 @@
     "tray"
   ],
   "custom/launcher": {
-    "format": " zer0 ",
-    "tooltip-format": "Power Menu",
-    "on-click": "~/.config/sway/scripts/fuzzel_power.sh",
+    "format": " exit ",
+    "tooltip-format": "Exit Menu",
+    "on-click": "~/.config/sway/scripts/fuzzel_exit.sh",
     "tooltip": false
   },
   "sway/workspaces": {

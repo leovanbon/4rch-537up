@@ -106,7 +106,7 @@ for_window [app_id="kitty"] floating disable
 
 ### System & Sway Control ###
 bindsym $mod+Shift+c reload
-bindsym $mod+Shift+e exec ~/.config/sway/scripts/fuzzel_power.sh
+bindsym $mod+Shift+e exec ~/.config/sway/scripts/fuzzel_exit.sh
 bindsym $mod+l exec swaylock -c 000000
 
 ### Application Launchers ###
