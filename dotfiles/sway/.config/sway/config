@@ -91,7 +91,7 @@ exec autotiling
 floating_modifier $mod
 
 # Move tiling windows via drag & drop
-tiling_drag titlebar
+tiling_drag enable
 
 # General float rules
 for_window [shell="xdg_shell"] floating enable
